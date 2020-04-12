@@ -84,3 +84,18 @@ ul {
   display: flex;
   justify-content: center;
 }
+#about {
+  background-color: cyan;
+  height: 300px;
+  text-align: center;
+}
+#procedure {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSRTsR3cz5fcIIFUQxa5N_ijJ1fEgKn_mEOAXubL5l__zcRDiDZ&usqp=CAU");
+  background-color: magenta;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
