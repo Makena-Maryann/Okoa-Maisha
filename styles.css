@@ -20,6 +20,7 @@ ul {
 .donate {
   float: right;
 }
+
 .item a {
   display: block;
   color: white;
@@ -27,10 +28,12 @@ ul {
   padding: 14px 16px;
   text-decoration: none;
 }
+
 .item a:hover {
   background-color: #00ffff;
   color: black;
 }
+
 .donate a {
   display: block;
   text-align: center;
@@ -39,12 +42,45 @@ ul {
   background-color: #00ffff;
   color: black;
 }
+
 .donate a:hover {
   color: white;
   background-color: orange;
 }
+
 .one {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSnCPOWH2Lnvo0o_cfRLK3F4-4Ev6b8i6Vc7GXJfGVNv94q0fGk&usqp=CAU");
+  background-color: cyan;
+  height: 500px;
   background-repeat: no-repeat;
-  background-position: initial;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
+
+.two {
+  background-color: black;
+  height: 250px;
+  text-align: center;
+}
+.two h3 {
+  color: cyan;
+}
+.two p {
+  color: white;
+}
+.three {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTS6oGI4D9d6ai3sFOy4rE3pVWFWm6q-4UuNTkiA9J3MeGy2B-o&usqp=CAU");
+  background-color: lightgray;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
+.digits {
+  display: flex;
+  justify-content: center;
 }
